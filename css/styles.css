@@ -1,0 +1,11 @@
+.body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.topbar{
+    display: flex;
+    justify-content: space-around;
+}
+.top-image{
+    background-image: url("../images/Pizza.jpg");
+    background-size: cover;
+}
