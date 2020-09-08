@@ -6,7 +6,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(30, 167, 3);
   }
   
   li {
@@ -23,7 +23,7 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: rgb(255, 255, 255);
   }
   /* Add a gray right border to all list items, except the last item (last-child) */
 li {
@@ -33,12 +33,13 @@ li {
   li:last-child {
     border-right: none;
   }
-.topbar{
-    display: flex;
-    justify-content: space-around;
-}
-.top-image{
+
+.overlay{
     background-image: url("../images/Pizza1.jpg");
     background-size: cover;
-    align-items: center;
+    height: 500px;
+}
+h1{
+    text-align: center;
+    color: orange;
 }
